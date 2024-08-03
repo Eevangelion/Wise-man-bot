@@ -29,4 +29,6 @@ def healthcheck(message):
     bot.send_message(message.chat.id, "Я живой!")
 
 if __name__ == '__main__':
+    print("Script started")
     get_quote()
+    print("OK")
