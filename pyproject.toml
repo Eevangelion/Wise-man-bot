@@ -9,10 +9,6 @@ readme = "README.md"
 python = "^3.10"
 python-dotenv = "^1.0.1"
 pytelegrambotapi = "^4.21.0"
-telethon = "^1.36.0"
-google-api-python-client = "^2.139.0"
-google-auth-oauthlib = "^1.2.1"
-fastapi = {extras = ["standard"], version = "^0.112.0"}
 
 [build-system]
 requires = ["poetry-core"]
