@@ -24,7 +24,6 @@ jobs:
     - name: Execute script
       env:
         TG_TOKEN: ${{ secrets.TG_TOKEN }}
-        CHAT_ID: ${{ secrets.CHAT_ID }}
         CHAT_BOT_ID: ${{ secrets.CHAT_BOT_ID }}
         USER_ID: ${{ secrets.USER_ID }}
         FILE_ID: ${{ secrets.FILE_ID }}
