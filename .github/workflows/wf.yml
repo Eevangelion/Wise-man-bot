@@ -3,7 +3,7 @@ name: Wise man bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 5 * * *"
+    - cron: "30 3 * * *"
 
 jobs:
   build:
